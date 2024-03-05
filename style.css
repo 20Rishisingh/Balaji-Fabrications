@@ -121,7 +121,7 @@ body{
 .user-reviews{
    margin: 10px 30px;
    padding: 10px;
-   height: 70vh;
+   height: 75vh;
    width: 95vw;
    border: 3px solid aliceblue;
    display: flex;
@@ -131,7 +131,10 @@ body{
 }
 
 .user-reviews .user{
-   border: 2px solid yellow;
+   /* border: 2px solid yellow; */
+   color: black;
+   background-color: aliceblue;
+   box-shadow: 15px 15px 15px black;
    align-items: center;
    text-align: center;
    height: 28rem;
@@ -161,7 +164,7 @@ body{
 .About .abt-cnt{
    margin: 10px 30px;
    padding: 10px;
-   height: 70vh;
+   height: 80vh;
    width: 95vw;
    border: 3px solid aliceblue;
    display: flex;
@@ -170,7 +173,7 @@ body{
    justify-content: space-between;
 }
 
-.About .abt-cnt .inquire{
+.About .abt-cnt .inquiry{
    display: flex;
    flex-direction: column;
    /* border: 2px solid yellow; */
@@ -180,21 +183,21 @@ body{
    margin: 15px 50px;
    padding: 20px;
    font-size: 50px;
-   line-height: 50px;
+   line-height: 80px;
 }
 
-.About .abt-cnt .inquire .i-txt{
+.About .abt-cnt .inquiry .i-txt{
    font-size: 25px;
-   margin: 25px;
+   margin: 10px;
    padding: 10px;
    border-radius: 15px;
 }
 
-.About .abt-cnt .inquire .btn{
+.About .abt-cnt .inquiry .btn{
    height: 40px;
    width: 100px;
    font-size: 20px;
-   margin-left: 100px;
+   margin: 20px 100px;
    border: 1.5px solid black;
    border-radius: 50px;
    box-shadow: 4px 6px 5px;
@@ -203,11 +206,19 @@ body{
 }
 
 .abt-cnt .owner{
-   margin-right: 200px;
+   margin-right: 100px;
    padding: 20px;
-   font-size: 40px;
+   width: 450px;
+   font-size: 30px;
    line-height: 50px;
    text-align: center;
+   text-wrap: wrap;
+}
+
+.abt-cnt .owner h4{
+   font-family: 'Courier New', Courier, monospace;
+   font-style: italic;
+   text-decoration: underline yellow;
 }
 
 .owner img{
@@ -215,4 +226,3 @@ body{
    width: 350px;
    border-radius: 50%;
 }
-
