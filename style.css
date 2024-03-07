@@ -226,3 +226,182 @@ body{
    width: 350px;
    border-radius: 50%;
 }
+
+
+/****************************************************************/
+
+@media screen and (max-width: 426px) {
+
+   .hero-section{
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between;   */
+      width: 200vw;
+   }
+   
+   .hero-section img{
+      margin-top: 120px;
+      margin-left: 70px;
+      height: 180vh;
+      width: 160vw;
+      border-radius: 20%;
+   }
+   
+   .hero-txt{
+      margin: 80px;
+      /* margin-right: 100px;  */
+   }
+   
+   .hero-txt h2{
+      font-size: 80px;
+      color: yellow;
+      line-height: 150%;
+   }
+   
+   .hero-txt .skills{
+      font-size: 50px;
+      line-height: 200%;
+      list-style: square;
+      list-style-position: inside;
+   }
+
+   .title-heading{
+      margin: 30px;
+      font-size: 45px;
+      color: yellow;
+   }
+   
+   .project-imgs{
+      margin: 10px 70px;
+      /* padding: 10px; */
+      height: 5000px;
+      width: 700px;
+      border: 3px solid aliceblue;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+   }
+   
+   .project-imgs .prjct-img{
+      height: 600px;
+      width: 600px;
+      padding: 15px;
+      margin: auto;
+      border-radius: 20%;
+   }
+
+   .user-reviews{
+      margin: 10px 70px;
+      padding: 10px;
+      height: 2500px;
+      width: 700px;
+      border: 3px solid aliceblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+   }
+   
+   .user-reviews .user{
+      /* border: 2px solid yellow; */
+      color: black;
+      background-color: aliceblue;
+      box-shadow: 15px 15px 15px black;
+      align-items: center;
+      text-align: center;
+      height: 700px;
+      width: 600px;
+      margin: auto;
+      padding: 10px;
+      border-radius: 10%;
+   }
+   
+   .user-reviews .user img{
+      height: 500px;
+      width: 400px;
+      border-radius: 20%;
+   }
+   
+   .user-reviews .user h6{
+      font-size: 45px;
+      padding: 8px;
+      font-family: 'Courier New', Courier, monospace;
+      font-style: italic;
+   }
+   
+   .user-reviews .user p{
+      font-size: 30px;
+      width: 500px;
+      margin: auto;
+   }
+
+   .About .abt-cnt{
+      margin: 10px 90px;
+      padding: 10px;
+      height: 1500px;
+      width: 650px;
+      border: 3px solid aliceblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+   }
+   
+   .About .abt-cnt .inquiry{
+      height: 700px;
+      width: 500px;
+      border-radius: 20%;
+      margin: 15px 30px;
+      padding: 20px;
+      font-size: 80px;
+      line-height: 120px;
+   }
+   
+   .About .abt-cnt .inquiry .i-txt{
+      font-size: 40px;
+      margin: auto;
+      padding: 15px;
+      border-radius: 15px;
+   }
+   
+   .About .abt-cnt .inquiry .btn{
+      height: 80px;
+      width: 200px;
+      font-size: 40px;
+      margin: auto;
+      border: 1.5px solid black;
+      border-radius: 50px;
+      box-shadow: 4px 6px 5px;
+      cursor: pointer;
+      font-weight: bold;
+   }
+   
+   .abt-cnt .owner{
+      /* margin-right: 100px; */
+      margin: auto;
+      padding: 20px;
+      width: 600px;
+      font-size: 45px;
+      line-height: 60px;
+      text-align: center;
+      text-wrap: wrap;
+   }
+   
+   .abt-cnt .owner h4{
+      font-family: 'Courier New', Courier, monospace;
+      font-style: italic;
+      text-decoration: underline yellow;
+   }
+   
+   .owner img{
+      height: 300px;
+      width: 350px;
+      border-radius: 50%;
+   }
+
+   .owner h6{
+      font-size: 35px;
+      width: 500px;
+      margin: auto;
+   }
+
+} 
