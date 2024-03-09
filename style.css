@@ -230,7 +230,7 @@ body{
 
 /****************************************************************/
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 376px) {
 
    .hero-section{
       display: flex;
